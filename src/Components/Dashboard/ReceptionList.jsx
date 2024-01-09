@@ -88,7 +88,6 @@ function Recptionlist() {
               <td>
                 <button onClick={()=>deleteReception(reception.id)} className="btn btn-dark">Delete</button>
                 <button className="btn btn-dark ml-1">Edit</button>
-
               </td>
             </tr>
           )}
