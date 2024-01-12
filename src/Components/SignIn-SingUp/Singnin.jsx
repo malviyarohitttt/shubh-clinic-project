@@ -66,7 +66,7 @@ function Singnin() {
             <div className="btn-box">
               <button className='btn btn-denger' type="submit">Submit Now</button>
               {/* <small><b style={{textTransform:"capitalize",color:"red"}}>{msg}</b></small> */}
-              {loading ? <Loading/> : <small><b style={{textTransform:"capitalize",color:"red"}}>{msg}</b></small>}
+              {loading ? <Loading/> : <small><b style={{textTransform:"capitalize",color:"red",marginLeft:"20px"}}>{msg}</b></small>}
             </div>
           </form>
         </div>
