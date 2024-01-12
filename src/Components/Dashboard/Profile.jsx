@@ -5,7 +5,6 @@ function Profile() {
 
     let currentUser = sessionStorage.getItem("current_user")
     currentUser = JSON.parse(currentUser);
-    // console.log(currentUser)
 
   return <>
   <Header/>
@@ -39,9 +38,6 @@ function Profile() {
                 <input type="email" className="form-control" id="type" value={currentUser.type} readOnly />
               </div>
             </div>
-            {/* <div className="btn-box">
-              <button className='btn btn-denger' type="submit">Submit Now</button>
-            </div> */}
           </form>
         </div>
       </div>

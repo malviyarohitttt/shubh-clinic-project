@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Footer() {
   return <>
@@ -7,11 +8,10 @@ function Footer() {
         <div className="container">
           <div className="info_top">
             <div className="info_logo">
-              <a href="">
+              <Link to='/dashboard/profile'>
                 {/* <img src="images/logo.png" alt="Photograph" /> */}
                 <h3 style={{ color:"#3787e6",fontSize:"35px",fontWeight:"bolder"}}>Shubh Clinic</h3>
-
-              </a>
+              </Link>
             </div>
             <div className="info_form">
               <form action="">
@@ -29,38 +29,38 @@ function Footer() {
                   Address
                 </h5>
                 <div className="info_contact">
-                  <a href="">
+                  <Link>
                     <i className="fa fa-map-marker" aria-hidden="true"></i>
                     <span>
                       Location
                     </span>
-                  </a>
-                  <a href="">
+                  </Link>
+                  <Link>
                     <i className="fa fa-phone" aria-hidden="true"></i>
                     <span>
                       Call +01 1234567890
                     </span>
-                  </a>
-                  <a href="">
+                  </Link>
+                  <Link>
                     <i className="fa fa-envelope"></i>
                     <span>
                       demo@gmail.com
                     </span>
-                  </a>
+                  </Link>
                 </div>
                 <div className="social_box">
-                  <a href="">
+                  <Link>
                     <i className="fa fa-facebook" aria-hidden="true"></i>
-                  </a>
-                  <a href="">
+                  </Link>
+                  <Link>
                     <i className="fa fa-twitter" aria-hidden="true"></i>
-                  </a>
-                  <a href="">
+                  </Link>
+                  <Link>
                     <i className="fa fa-linkedin" aria-hidden="true"></i>
-                  </a>
-                  <a href="">
+                  </Link>
+                  <Link>
                     <i className="fa fa-instagram" aria-hidden="true"></i>
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="col-md-6 col-lg-3">
@@ -69,24 +69,24 @@ function Footer() {
                     Useful link
                   </h5>
                   <div className="info_links_menu">
-                    <a className="active" href="index.html">
+                    <Link className="active">
                       Home
-                    </a>
-                    <a href="about.html">
+                    </Link>
+                    <Link>
                       About
-                    </a>
-                    <a href="treatment.html">
+                    </Link>
+                    <Link>
                       Treatment
-                    </a>
-                    <a href="doctor.html">
+                    </Link>
+                    <Link>
                       Doctors
-                    </a>
-                    <a href="testimonial.html">
+                    </Link>
+                    <Link>
                       Testimonial
-                    </a>
-                    <a href="contact.html">
+                    </Link>
+                    <Link>
                       Contact us
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -144,13 +144,6 @@ function Footer() {
           </div>
         </div>
       </section>
-
-      <div className="container">
-        <p>
-          &copy; <span id="displayYear"></span> All Rights Reserved By
-          <a href="https://html.design/">Free Html Templates</a>
-        </p>
-      </div>
     </footer>
   </>
 }

@@ -4,7 +4,6 @@ APIURL - http://tutorials.codebetter.in:3000/auth/doctor/save
 
       Format : JSON
                    {
-                   
                      "name": "rohit",
                      "phoneNumber": "9174635861",
                      "email": "rohit@gmail.com",
